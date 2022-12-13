@@ -1,6 +1,6 @@
 {
   "name": "react-zoldy",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "",
   "types": "./types/src/index.d.ts",
   "main": "cjs/react-zoldy.js",
@@ -76,7 +76,7 @@
     "lint-staged": "^10.5.4",
     "metro-react-native-babel-preset": "^0.63.0",
     "prettier": "^2.2.1",
-    "react": ">=16.13.1",
+    "react": "^18.2.0",
     "react-dom": "^17.0.1",
     "react-native": "^0.62.2",
     "react-performance-testing": "^1.2.0",
@@ -96,7 +96,10 @@
     "typescript": "^4.2.3",
     "yup": "^0.32.9"
   },
-  "dependencies": {
-    "rakun": "0.0.0-alpha.30"
-  }
+  "peerDependencies": {
+    "react-rakun": "0.0.0-alpha.3",
+    "rakun": "^0.0.0-alpha.32",
+    "zoldy": "0.0.0-alpha.7"
+  },
+  "dependencies": {}
 }
